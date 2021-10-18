@@ -14,11 +14,6 @@
 	export const prerender = true;
 </script>
 
-
-<script lang="ts">
-	import img01 from '/img_info_01.png';
-</script>
-
 <svelte:head>
 	<title>K16: Info</title>
 </svelte:head>
@@ -45,7 +40,7 @@
 			<div class="layout-split__item">
 				<div class="image-teaser isVisible">
 					<div class="image-teaser__img">
-						<img src="{img01}" alt="Zicht op Kaai 16" />
+						<img src="/img_info_01.png" alt="Zicht op Kaai 16" />
 					</div>
 				</div>
 			</div>

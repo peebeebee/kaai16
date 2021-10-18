@@ -15,18 +15,6 @@
 </script>
 
 <script lang="ts">
-	import img01 from '/img_loft16_01.png';
-	import img02 from '/img_loft16_02.png';
-	import img03 from '/img_loft16_03.png';
-	import img04 from '/img_loft16_04.png';
-	import img05 from '/img_loft16_05.png';
-	import img06 from '/img_loft16_06.png';
-	import img07 from '/img_loft16_07.png';
-	import img08 from '/img_loft16_08.png';
-	import img09 from '/img_loft16_09.png';
-	import img10 from '/img_loft16_10.png';
-	import img11 from '/img_kaai16_02.png';
-
     let count = 0;
     let s = [];
     let st = [];
@@ -50,7 +38,7 @@
         <div class="parallax" style="transform: translate(0,{st[1]}px)">
             <div class="image-teaser isVisible">
                 <div class="image-teaser__img">
-                    <img src="{img01}" alt="Zicht op Kaai 16" />
+                    <img src="/img_loft16_01.png" alt="Zicht op Kaai 16" />
                 </div>
                 <div class="image-teaser__content">
                     <div class="image-teaser-content">
@@ -74,7 +62,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img02}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_02.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -87,14 +75,14 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img03}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_03.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
                 <div class="layout-split__item layout-split__item--small">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img04}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_04.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -107,14 +95,14 @@
                 <div class="layout-split__item layout-split__item--small">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img05}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_05.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img06}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_06.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -127,7 +115,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img07}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_07.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -146,14 +134,14 @@
                 <div class="layout-split__item layout-split__item--small">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img08}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_08.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img09}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_09.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -166,7 +154,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img10}" alt="Zicht op Kaai 16" />
+                            <img src="/img_loft16_10.png" alt="Zicht op Kaai 16" />
                         </div>
                     </div>
                 </div>
@@ -181,7 +169,7 @@
     <section class="fullscreen-scroll__section" bind:this={s[8]}>
         <div class="image-teaser isVisible" style="transform: translate(0,{st[8]}px)">
             <div class="image-teaser__img">
-                <img src="{img11}" alt="Zicht op Kaai 16" />
+                <img src="/img_loft16_11.png" alt="Zicht op Kaai 16" />
             </div>
         </div>
     </section>

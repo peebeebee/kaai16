@@ -2,10 +2,6 @@
 	export const prerender = true;
 </script>
 
-<script lang="ts">
-	import img01 from '/img_home_01.png';
-</script>
-
 <svelte:head>
 	<title>K16</title>
 </svelte:head>
@@ -14,7 +10,7 @@
 	<section class="fullscreen-scroll__section" >
         <div class="image-teaser isVisible">
             <div class="image-teaser__img">
-                <img src="{img01}" alt="Zicht op Kaai 16" />
+                <img src="/img_home_01.png" alt="Zicht op Kaai 16" />
             </div>
             <div class="image-teaser__content">
                 <div class="image-teaser-content">

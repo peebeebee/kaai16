@@ -15,17 +15,6 @@
 </script>
 
 <script lang="ts">
-	import img01 from '/img_event_01.png';
-	import img02 from '/img_event_02.png';
-	import img03 from '/img_event_03.png';
-	import img04 from '/img_event_04.png';
-	import img05 from '/img_event_05.png';
-	import img06 from '/img_event_06.png';
-	import img07 from '/img_event_07.png';
-	import img08 from '/img_event_08.png';
-	import img09 from '/img_event_09.png';
-	import img10 from '/img_event_10.png';
-
     let count = 0;
     let s = [];
     let st = [];
@@ -49,7 +38,7 @@
         <div class="parallax" style="transform: translate(0,{st[1]}px)">
             <div class="image-teaser isVisible">
                 <div class="image-teaser__img">
-                    <img src="{img01}" alt="" />
+                    <img src="/img_event_01.png" alt="" />
                 </div>
                 <div class="image-teaser__content">
                     <div class="image-teaser-content">
@@ -72,7 +61,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img02}" alt="" />
+                            <img src="/img_event_02.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -85,14 +74,14 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img03}" alt="" />
+                            <img src="/img_event_03.png" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="layout-split__item layout-split__item--small">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img04}" alt="" />
+                            <img src="/img_event_04.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -105,14 +94,14 @@
                 <div class="layout-split__item layout-split__item--small">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img05}" alt="" />
+                            <img src="/img_event_05.png" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img06}" alt="" />
+                            <img src="/img_event_06.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -125,7 +114,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img07}" alt="" />
+                            <img src="/img_event_07.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -152,7 +141,7 @@
                 <div class="layout-split__item">
                     <div class="image-teaser isVisible">
                         <div class="image-teaser__img">
-                            <img src="{img08}" alt="" />
+                            <img src="/img_event_08.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -162,14 +151,14 @@
     <section class="fullscreen-scroll__section" bind:this={s[7]}>
         <div class="image-teaser isVisible" style="transform: translate(0,{st[7]}px)">
             <div class="image-teaser__img">
-                <img src="{img09}" alt="" />
+                <img src="/img_event_09.png" alt="" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section" bind:this={s[8]}>
         <div class="image-teaser isVisible" style="transform: translate(0,{st[8]}px)">
             <div class="image-teaser__img">
-                <img src="{img10}" alt="" />
+                <img src="/img_event_10.png" alt="" />
             </div>
         </div>
     </section>
