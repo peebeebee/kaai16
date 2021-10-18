@@ -169,7 +169,7 @@
     <section class="fullscreen-scroll__section" bind:this={s[8]}>
         <div class="image-teaser isVisible" style="transform: translate(0,{st[8]}px)">
             <div class="image-teaser__img">
-                <img src="/img_loft16_11.png" alt="Zicht op Kaai 16" />
+                <img src="/img_kaai16_02.png" alt="Zicht op Kaai 16" />
             </div>
         </div>
     </section>
