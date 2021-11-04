@@ -14,6 +14,11 @@
 	export const prerender = true;
 </script>
 
+<script lang="ts">
+	import Teaser from '$lib/Teaser.svelte';
+    import Content from '$lib/Content.svelte';
+</script>
+
 <svelte:head>
 	<title>K16: Info</title>
 </svelte:head>
@@ -22,7 +27,7 @@
 	<section class="fullscreen-scroll__section">
 		<div class="layout-split">
 			<div class="layout-split__item">
-				<div class="content">
+				<Content>
                     <p>
                         KAAI 16<br>
                         SCHEEPVAARTSKAAI 16<br>
@@ -35,25 +40,23 @@
                     <p>
                         <small>BENT U GEÏNTERESSEERD IN HET TOTALE PROJECT, CONTACTEER ONS VRIJBLIJVEND</small>
                     </p>
-				</div>
+				</Content>
 			</div>
 			<div class="layout-split__item">
-				<div class="image-teaser isVisible">
-					<div class="image-teaser__img">
-						<img src="/img_info_01.png" alt="Zicht op Kaai 16" />
-					</div>
-				</div>
+				<Teaser>
+					<img src="/img_info_01.png" alt="Zicht op Kaai 16" />
+				</Teaser>
 			</div>
 		</div>
 	</section>
 </div>
 
 <style>
-    .content {
-        font-size: 35px;
+    p {
+        font-size: 24px;
     }
 
-    .content small {
-        font-size: 27px;
+    p small {
+        font-size: 18px;
     }
 </style>
