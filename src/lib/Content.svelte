@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     transition: transform 500ms ease-in-out,
-                opacity 1000ms ease-in-out 250ms;
+                opacity 500ms ease-in-out 250ms;
     transform: translateY(25%);
     opacity: 0;
 }

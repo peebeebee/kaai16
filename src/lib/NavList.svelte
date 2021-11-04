@@ -79,16 +79,6 @@
     }
 }
 
-@media(min-width: 1024px) {
-    .nav-list {
-        pointer-events: none;
-    }
-
-    .nav-list.nav-list--expanded {
-        pointer-events: all;
-    }
-}
-
 .nav-item {
     color: inherit;
 }
