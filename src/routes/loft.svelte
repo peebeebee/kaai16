@@ -28,7 +28,8 @@
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser title="Loft16">
-            <Image src="/img/img_loft16_01.png" alt="Loft16" />
+            <Image src="/img/img_loft16_01.png" alt="Loft16"
+                   lazy="false" threshold="0.3" />
         </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
@@ -41,7 +42,8 @@
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_02.png" />
+                    <Image src="/img/img_loft16_02.png"
+                           lazy="false" threshold="0.3"/>
                 </Teaser>
             </div>
         </div>
@@ -50,12 +52,14 @@
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_03.png" />
+                    <Image src="/img/img_loft16_03.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_04.png" />
+                    <Image src="/img/img_loft16_04.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
@@ -64,12 +68,14 @@
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_05.png" />
+                    <Image src="/img/img_loft16_05.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_06.png" />
+                    <Image src="/img/img_loft16_06.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
@@ -78,7 +84,8 @@
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_07.png" />
+                    <Image src="/img/img_loft16_07.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
@@ -93,12 +100,14 @@
         <div class="layout-split ">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_08.png" />
+                    <Image src="/img/img_loft16_08.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_09.png" />
+                    <Image src="/img/img_loft16_09.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
@@ -107,7 +116,8 @@
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_loft16_10.png" />
+                    <Image src="/img/img_loft16_10.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
@@ -119,7 +129,8 @@
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser>
-            <Image src="/img/img_kaai16_02.png" />
+            <Image src="/img/img_kaai16_02.png"
+                   lazy="false" threshold="0.3" />
         </Teaser>
     </section>
 </div>

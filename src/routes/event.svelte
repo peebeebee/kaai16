@@ -28,7 +28,8 @@
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser title="Event Locatie">
-            <Image src="/img/img_event_01.png" alt="Event Locatie" />
+            <Image src="/img/img_event_01.png" alt="Event Locatie"
+                   lazy="false" />
         </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
@@ -40,7 +41,8 @@
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_02.png" />
+                    <Image src="/img/img_event_02.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
         </div>
     </section>
@@ -48,11 +50,13 @@
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_03.png" />
+                    <Image src="/img/img_event_03.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_04.png" />
+                    <Image src="/img/img_event_04.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
@@ -61,12 +65,14 @@
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_05.png" />
+                    <Image src="/img/img_event_05.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_06.png" />
+                    <Image src="/img/img_event_06.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
@@ -75,7 +81,8 @@
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_07.png" />
+                    <Image src="/img/img_event_07.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
@@ -98,19 +105,22 @@
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
-                    <Image src="/img/img_event_08.png" />
+                    <Image src="/img/img_event_08.png"
+                           lazy="false" threshold="0.3" />
                 </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser>
-            <Image src="/img/img_event_09.png" />
+            <Image src="/img/img_event_09.png"
+                   lazy="false" threshold="0.3" />
         </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser>
-            <Image src="/img/img_event_10.png" />
+            <Image src="/img/img_event_10.png"
+                   lazy="false" threshold="0.3" />
         </Teaser>
     </section>
 </div>

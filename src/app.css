@@ -159,3 +159,18 @@ button:focus:not(:focus-visible) {
         scroll-snap-stop: always;
     }
 }
+
+
+
+
+.wrapper {
+	height: 100%;
+}
+
+.wrapper > div {
+	height: 100%;
+}
+
+.wrapper > div > div {
+	height: 100%;
+}
