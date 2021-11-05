@@ -24,45 +24,12 @@
 	box-sizing: border-box;
 }
 
-html,
-body {
-    scroll-behavior: smooth;
-}
-
-@media (min-width: 1024px) {
-    html,
-    body {
-        scroll-snap-type: y mandatory;
-    }
-}
-
 body {
 	min-height: 100vh;
 	margin: 0;
 	letter-spacing: 0.5ch;
 }
 
-body::before {
-	content: '';
-	width: 80vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 10vw;
-	z-index: -1;
-	background: radial-gradient(
-		50% 50% at 50% 50%,
-		var(--pure-white) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	opacity: 0.05;
-}
-
-#svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
 
 h1,
 h2,
@@ -113,49 +80,10 @@ button:focus:not(:focus-visible) {
 
 
 
-@media (max-width: 1023px) {
-    .fullscreen-scroll__section {
-        min-height: 100vh;
-    }
-}
-
-@media (min-width: 1024px) {
-    .fullscreen-scroll {
-        /* position: relative; */
-        /* height: 100vh; */
-        /* overflow: auto; */
-    }
-
-    .fullscreen-scroll__section {
-        height: auto;
-        position: relative;
-        width: 100%;
-        overflow: hidden; /* For the parallax effect */
-        height: calc(100vh - 50px);
-        height: 100vh;
-        /* max-height: 100vw; */
-    }
-}
-
-
-
-
-
-.parallax {
-	height: 100%;
-}
-
-
-
-
-
 .layout-split {
 	height: 100%;
 	width: 100%;
 	display: flex;
-}
-
-.layout-split .layout-split__item {
 }
 
 .layout-split .layout-split__item--small {
@@ -188,15 +116,45 @@ button:focus:not(:focus-visible) {
 
 
 
+
+
+.fullscreen-scroll {
+	overflow: hidden;
+	overflow-y: scroll;
+	height: 100vh;
+	/* height: calc(100vh - var(--nav-height)); */
+	/* height: fill-available; */
+}
+
 @media (max-width: 1023px) {
-    .scroll-snap--mobile {
+    .fullscreen-scroll__section {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fullscreen-scroll__section {
+        overflow: hidden; /* For the parallax effect */
+        height: 100vh;
+    }
+}
+
+
+
+
+.scroll-snap {
+	scroll-snap-type: y mandatory;
+}
+
+@media (max-width: 1023px) {
+    .scroll-snap__mobile {
         scroll-snap-align: start;
         scroll-snap-stop: always;
     }
 }
 
 @media (min-width: 1024px) {
-    .scroll-snap--desktop {
+    .scroll-snap__desktop {
         scroll-snap-align: start;
         scroll-snap-stop: always;
     }

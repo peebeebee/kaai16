@@ -10,7 +10,7 @@
 	<title>K16: Toekomst</title>
 </svelte:head>
 
-<div class="fullscreen-scroll">
+<div class="fullscreen-scroll scroll-snap">
 	<section class="fullscreen-scroll__section">
 		<Teaser title="Toekomst">
 			<img src="/img_toekomst_01.png" alt="Toekomst" />

@@ -8,7 +8,11 @@
 </svg>
 -->
 
-<button type="button" on:click class="nav-toggle" class:nav-toggle--active={expanded}>
+<button on:click
+        type="button"
+        aria-label="Toggle Navigatie"
+        class="nav-toggle"
+        class:nav-toggle--active={expanded}>
     <span class="nav-toggle__line nav-toggle__line--1"></span>
     <span class="nav-toggle__line nav-toggle__line--2"></span>
     <span class="nav-toggle__line nav-toggle__line--3"></span>

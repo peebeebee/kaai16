@@ -1,65 +1,16 @@
 <script lang="ts">
+    import {scrollY} from '../stores';
 
     export let title = undefined;
-    let el;
-    let img;
-    let y = 0;
+    let el: HTMLElement;
+    let y: Number = 0;
 
-    import { onMount } from 'svelte';
-
-
-
-
-
-
-    let lastKnownScrollPosition = 0;
-    // let ticking = false;
-
-    let isScrolling = false;
-
-    // onMount(async () => {
-    //     document.addEventListener('scroll', function(e) {
-    //         lastKnownScrollPosition = window.scrollY;
-
-    //         if (!ticking) {
-    //             window.requestAnimationFrame(function() {
-    //                 doScrollStuff(lastKnownScrollPosition);
-    //                 ticking = false;
-    //             });
-
-    //             ticking = true;
-    //         }
-    //     });
-
-    //     function doScrollStuff(scrollPos) {
-    //         const x = el.getBoundingClientRect().top / -3;
-    //         img.style.transform = `translate(0, ${x}px)`;
-    //         // window.requestAnimationFrame(calc);
-    //     }
-    // })
-
-    function onScroll() {
-        if(!isScrolling) {
-            isScrolling = true;
-            window.requestAnimationFrame(doScrollStuff)
-        }
-    }
-
-    function doScrollStuff() {
-        if(lastKnownScrollPosition == window.scrollY) {
-            isScrolling = false;
-        } else {
-            lastKnownScrollPosition = window.scrollY;
-            y = el.getBoundingClientRect().top / -2;
-            window.requestAnimationFrame(doScrollStuff);
-        }
-    }
+    $: y = ($scrollY && el) ? el.getBoundingClientRect().top / -2 : 0;
 </script>
 
-<svelte:window on:scroll={onScroll}/>
 <div class="teaser" bind:this={el}>
-    <div class="teaser__img" bind:this={img} style="transform: translateZ(0) translate(0,{y}px">
-    <!-- <div class="teaser__img" bind:this={img}> -->
+    <div class="teaser__img" style="transform: translateZ(0) translate(0,{y}px">
+        sdsdfsfsadf {y}
         <slot></slot>
     </div>
 

@@ -16,7 +16,6 @@
 	font-size: clamp(30px, 3vw, 60px);
     letter-spacing: 2.5px;
 	color: var(--primary-color-contrast);
-    /* height: calc(100% - 95px); */
     height: 100%;
     margin: 0 10vw 0 5vw;
     display: flex;

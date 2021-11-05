@@ -17,13 +17,14 @@
 <script lang="ts">
 	import Teaser from '$lib/Teaser.svelte';
     import Content from '$lib/Content.svelte';
+	import setScroll from '$actions/setScroll';
 </script>
 
 <svelte:head>
 	<title>K16: Info</title>
 </svelte:head>
 
-<div class="fullscreen-scroll">
+<div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section">
 		<div class="layout-split">
 			<div class="layout-split__item">
