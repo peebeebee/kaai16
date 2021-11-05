@@ -5,13 +5,13 @@ import { preprocess as compilerPreprocess } from "svelte/compiler";
 // import path from "path";
 
 const imagePreprocessor = image({
-	processFolders: ["img"],
+	// processFolders: ["img"],
 	processFoldersRecursively: true,
 	// @ts-expect-error bad type inference
 	processFoldersSizes: [600, 1200, 2400],
 	processFoldersExtensions: ["jpg", "jpeg", "png", "JPG", "JPEG", "PNG"],
 	placeholder: "blur",
-	outputDir: "/g/",
+	// outputDir: "/g/",
 });
 
 imagePreprocessor.markup({ content: "<html/>" })
