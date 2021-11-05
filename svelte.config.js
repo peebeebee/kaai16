@@ -42,7 +42,8 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		adapter: adapter(), // currently the adapter does not take any options
-		target: '#svelte'
+		target: '#svelte',
+		trailingSlash: "never"
 	}
 };
 
