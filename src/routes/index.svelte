@@ -15,7 +15,7 @@
 	<section class="fullscreen-scroll__section">
         <Teaser title="Loft 16">
             <Image src="/img/img_home_01.png"
-                   lazy="false" threshold="0" />
+                   lazy="false" threshold="100" offset="100" />
         </Teaser>
     </section>
 </div>

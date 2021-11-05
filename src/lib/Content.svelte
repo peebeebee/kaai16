@@ -36,7 +36,7 @@
     opacity: 1;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .content {
         transition: none;
     }
