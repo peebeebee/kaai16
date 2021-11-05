@@ -36,7 +36,7 @@
 
 .nav-toggle .nav-toggle__line {
     width: 100%;
-    background: var(--primary-color);
+    background: var(--nav-color);
     transition: 100ms transform ease-in-out;
 }
 

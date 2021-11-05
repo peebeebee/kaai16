@@ -47,6 +47,7 @@
     margin: 0;
     padding: 0;
     text-align: right;
+    color: var(--nav-color);
 }
 
 .nav-list__item {

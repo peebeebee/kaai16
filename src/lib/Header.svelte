@@ -12,7 +12,7 @@
 
 </script>
 
-<header class="header" class:header--expanded="{expanded}">
+<header class="header" class:header--expanded="{expanded}" class:header--home="{$page.path === '/'}">
 	<div class="header__item header-pagetitle">
 		<h2>
 			{#if $page.path === '/loft'}Loft 16{/if}
@@ -38,8 +38,9 @@
 </header>
 
 <style>
-	:root {
+	:global(:root) {
 		--nav-height: 40px;
+		--nav-color: var(--primary-color)
 	}
 
 	a {
@@ -87,6 +88,11 @@
 			background-color: rgba(255, 255, 255, 1);
 			font-size: 30px;
 		}
+
+		.header.header--home {
+			background-color: transparent;
+			--nav-color: white;
+		}
 	}
 
 
@@ -99,6 +105,10 @@
 	@media(min-width: 1024px) {
 		.header-title {
 			display: block;
+		}
+
+		.header.header--home .header-title {
+			display: none;
 		}
 	}
 
