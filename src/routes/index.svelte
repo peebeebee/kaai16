@@ -4,6 +4,7 @@
 
 <script lang="ts">
     import Teaser from '$lib/Teaser.svelte';
+    import Image from 'svelte-image';
 </script>
 
 <svelte:head>
@@ -12,6 +13,8 @@
 
 <div class="fullscreen-scroll scroll-snap">
 	<section class="fullscreen-scroll__section">
-        <Teaser title="Loft 16" src="/img_home_01.png" />
+        <Teaser title="Loft 16">
+            <Image src="/img/img_home_01.png" />
+        </Teaser>
     </section>
 </div>

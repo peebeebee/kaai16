@@ -18,6 +18,7 @@
 	import Teaser from '$lib/Teaser.svelte';
     import Content from '$lib/Content.svelte';
 	import setScroll from '../actions/setScroll';
+	import Image from 'svelte-image';
 </script>
 
 <svelte:head>
@@ -44,7 +45,9 @@
 				</Content>
 			</div>
 			<div class="layout-split__item">
-				<Teaser src="/img_info_01.png" />
+				<Teaser>
+					<Image src="/img/img_info_01.png" />
+				</Teaser>
 			</div>
 		</div>
 	</section>

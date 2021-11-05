@@ -18,6 +18,7 @@
     import Teaser from '$lib/Teaser.svelte';
     import Content from '$lib/Content.svelte';
     import setScroll from '../actions/setScroll';
+    import Image from 'svelte-image';
 </script>
 
 <svelte:head>
@@ -26,7 +27,9 @@
 
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser title="Event Locatie" src="/img_event_01.png" alt="Event Locatie" />
+        <Teaser title="Event Locatie">
+            <Image src="/img/img_event_01.png" alt="Event Locatie" />
+        </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
@@ -36,34 +39,44 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_event_02.png" />
-            </div>
+                <Teaser>
+                    <Image src="/img/img_event_02.png" />
+                </Teaser>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_event_03.png" />
-            </div>
+                <Teaser>
+                    <Image src="/img/img_event_03.png" />
+                </Teaser>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser src="/img_event_04.png" />
+                <Teaser>
+                    <Image src="/img/img_event_04.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser src="/img_event_05.png" />
+                <Teaser>
+                    <Image src="/img/img_event_05.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_event_06.png" />
+                <Teaser>
+                    <Image src="/img/img_event_06.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_event_07.png" />
+                <Teaser>
+                    <Image src="/img/img_event_07.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -84,14 +97,20 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_event_08.png"></Teaser>
+                <Teaser>
+                    <Image src="/img/img_event_08.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser src="/img_event_09.png"></Teaser>
+        <Teaser>
+            <Image src="/img/img_event_09.png" />
+        </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser src="/img_event_10.png"></Teaser>
+        <Teaser>
+            <Image src="/img/img_event_10.png" />
+        </Teaser>
     </section>
 </div>

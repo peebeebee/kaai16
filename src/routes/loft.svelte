@@ -18,6 +18,7 @@
     import Teaser from '$lib/Teaser.svelte';
     import Content from '$lib/Content.svelte';
     import setScroll from '../actions/setScroll';
+    import Image from 'svelte-image';
 </script>
 
 <svelte:head>
@@ -26,7 +27,9 @@
 
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser src="/img_loft16_01.png" title="Loft16" />
+        <Teaser title="Loft16">
+            <Image src="/img/img_loft16_01.png" alt="Loft16" />
+        </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
@@ -37,34 +40,46 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_02.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_02.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_03.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_03.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser src="/img_loft16_04.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_04.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser src="/img_loft16_05.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_05.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_06.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_06.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_07.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_07.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -77,17 +92,23 @@
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split ">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser src="/img_loft16_08.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_08.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_09.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_09.png" />
+                </Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser src="/img_loft16_10.png" />
+                <Teaser>
+                    <Image src="/img/img_loft16_10.png" />
+                </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -97,6 +118,8 @@
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser src="/img_kaai16_02.png" />
+        <Teaser>
+            <Image src="/img/img_kaai16_02.png" />
+        </Teaser>
     </section>
 </div>

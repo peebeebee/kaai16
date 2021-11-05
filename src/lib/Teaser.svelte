@@ -1,9 +1,5 @@
 <script lang="ts">
     import {scrollY} from '../stores';
-    import Image from "svelte-image";
-
-    export let src: string;
-    export let alt: string = undefined;
     export let title: string = undefined;
 
     let el: HTMLElement;
@@ -14,8 +10,7 @@
 
 <div class="teaser" bind:this={el}>
     <div class="teaser__img" style="transform: translateZ(0) translate(0,{y}px">
-        <img src="{src}" alt="{alt}" loading="lazy" />
-        <!-- <Image src="{src}" alt="{alt}" lazy="{false}" wrapperClass="myCustomWrapperClass" placeholderClass="myCustomPlaceholderClass" threshold="0.5" /> -->
+        <slot />
     </div>
 
     {#if title}
