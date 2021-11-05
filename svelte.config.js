@@ -11,7 +11,7 @@ const imagePreprocessor = image({
 	processFoldersSizes: [600, 1200, 2400],
 	processFoldersExtensions: ["jpg", "jpeg", "png", "JPG", "JPEG", "PNG"],
 	placeholder: "blur",
-	// outputDir: "/g/",
+	outputDir: "../g/",
 });
 
 imagePreprocessor.markup({ content: "<html/>" })
