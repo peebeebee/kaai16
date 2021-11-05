@@ -17,7 +17,7 @@
 <script lang="ts">
 	import Teaser from '$lib/Teaser.svelte';
     import Content from '$lib/Content.svelte';
-	import setScroll from '$actions/setScroll';
+	import setScroll from '../actions/setScroll';
 </script>
 
 <svelte:head>
