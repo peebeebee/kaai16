@@ -47,7 +47,7 @@
 			<div class="layout-split__item">
 				<Teaser>
 					<Image src="/img/img_info_01.png"
-					       lazy="false" threshold="0.3" />
+					       lazy="false" threshold="0" />
 				</Teaser>
 			</div>
 		</div>
