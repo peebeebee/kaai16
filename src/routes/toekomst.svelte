@@ -15,7 +15,7 @@
 	<section class="fullscreen-scroll__section">
 		<Teaser title="Toekomst">
 			<Image src="/img/img_toekomst_01.png" alt="Toekomst"
-			       lazy="false" threshold="0" offset="100" />
+			       lazy="false" threshold="0" offset="1500" />
 		</Teaser>
 	</section>
 </div>
