@@ -10,7 +10,8 @@ const imagePreprocessor = image({
 	// @ts-expect-error bad type inference
 	processFoldersSizes: [600, 1200, 2400],
 	processFoldersExtensions: ["jpg", "jpeg", "png", "JPG", "JPEG", "PNG"],
-	placeholder: "blur"
+	placeholder: "blur",
+	outputDir: "/g/",
 });
 
 imagePreprocessor.markup({ content: "<html/>" })
