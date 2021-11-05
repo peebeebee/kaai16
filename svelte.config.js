@@ -8,7 +8,7 @@ const imagePreprocessor = image({
 	// processFolders: ["img"],
 	processFoldersRecursively: true,
 	// @ts-expect-error bad type inference
-	processFoldersSizes: [600, 1200, 2400],
+	processFoldersSizes: [600, 1024, 1440],
 	processFoldersExtensions: ["jpg", "jpeg", "png", "JPG", "JPEG", "PNG"],
 	placeholder: "blur",
 	outputDir: "../g/",
