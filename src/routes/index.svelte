@@ -12,8 +12,6 @@
 
 <div class="fullscreen-scroll scroll-snap">
 	<section class="fullscreen-scroll__section">
-        <Teaser title="Loft 16">
-            <img src="/img_home_01.png" alt="Zicht op Kaai 16" />
-        </Teaser>
+        <Teaser title="Loft 16" src="/img_home_01.png" />
     </section>
 </div>

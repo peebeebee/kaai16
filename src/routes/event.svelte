@@ -26,9 +26,7 @@
 
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser title="Event Locatie">
-            <img src="/img_event_01.png" alt="Event Locatie" />
-        </Teaser>
+        <Teaser title="Event Locatie" src="/img_event_01.png" alt="Event Locatie" />
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
@@ -38,46 +36,34 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_02.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_02.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_03.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_03.png" />
             </div>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_04.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_04.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_05.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_05.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_06.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_06.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_07.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_07.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -98,20 +84,14 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_event_08.png" alt="" />
-                </Teaser>
+                <Teaser src="/img_event_08.png"></Teaser>
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser>
-            <img src="/img_event_09.png" alt="" />
-        </Teaser>
+        <Teaser src="/img_event_09.png"></Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser>
-            <img src="/img_event_10.png" alt="" />
-        </Teaser>
+        <Teaser src="/img_event_10.png"></Teaser>
     </section>
 </div>

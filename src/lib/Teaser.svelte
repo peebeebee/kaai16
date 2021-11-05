@@ -1,7 +1,11 @@
 <script lang="ts">
     import {scrollY} from '../stores';
+    import Image from "svelte-image";
 
-    export let title = undefined;
+    export let src: string;
+    export let alt: string = undefined;
+    export let title: string = undefined;
+
     let el: HTMLElement;
     let y: Number = 0;
 
@@ -10,8 +14,8 @@
 
 <div class="teaser" bind:this={el}>
     <div class="teaser__img" style="transform: translateZ(0) translate(0,{y}px">
-        sdsdfsfsadf {y}
-        <slot></slot>
+        <img src="{src}" alt="{alt}" loading="lazy" />
+        <!-- <Image src="{src}" alt="{alt}" lazy="{false}" wrapperClass="myCustomWrapperClass" placeholderClass="myCustomPlaceholderClass" threshold="0.5" /> -->
     </div>
 
     {#if title}
@@ -47,7 +51,7 @@
         bottom: 0;
         perspective: 1000;
         backface-visibility: hidden;
-        transition: 50ms transform linear;
+        /* transition: 100ms transform linear; */
     }
 
     .teaser .teaser__img :global(img) {

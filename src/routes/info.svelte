@@ -44,9 +44,7 @@
 				</Content>
 			</div>
 			<div class="layout-split__item">
-				<Teaser>
-					<img src="/img_info_01.png" alt="Zicht op Kaai 16" />
-				</Teaser>
+				<Teaser src="/img_info_01.png" />
 			</div>
 		</div>
 	</section>

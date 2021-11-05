@@ -26,9 +26,7 @@
 
 <div class="fullscreen-scroll scroll-snap" use:setScroll>
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser title="Loft16">
-            <img src="/img_loft16_01.png" alt="Zicht op Kaai 16" />
-        </Teaser>
+        <Teaser src="/img_loft16_01.png" title="Loft16" />
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
@@ -39,46 +37,34 @@
                 </Content>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_02.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_02.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_03.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_03.png" />
             </div>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_04.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_04.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_05.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_05.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_06.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_06.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_07.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_07.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -91,23 +77,17 @@
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split ">
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_08.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_08.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img class="teaser-img" src="/img_loft16_09.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_09.png" />
             </div>
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
         <div class="layout-split">
             <div class="layout-split__item scroll-snap__mobile">
-                <Teaser>
-                    <img src="/img_loft16_10.png" alt="Zicht op Kaai 16" />
-                </Teaser>
+                <Teaser src="/img_loft16_10.png" />
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Content>
@@ -117,8 +97,6 @@
         </div>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
-        <Teaser>
-            <img src="/img_kaai16_02.png" alt="Zicht op Kaai 16" />
-        </Teaser>
+        <Teaser src="/img_kaai16_02.png" />
     </section>
 </div>
