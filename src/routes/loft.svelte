@@ -29,7 +29,7 @@
 	<section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser title="Loft16">
             <Image src="/img/img_loft16_01.png" alt="Loft16"
-                   lazy="false" threshold="100" offset="100" />
+                   lazy="false" threshold="0" offset="100" />
         </Teaser>
     </section>
     <section class="fullscreen-scroll__section scroll-snap__desktop">
@@ -43,7 +43,7 @@
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_02.png"
-                           lazy="false" threshold="100" offset="100"/>
+                           lazy="false" threshold="0" offset="100"/>
                 </Teaser>
             </div>
         </div>
@@ -53,13 +53,13 @@
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_03.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_04.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
         </div>
@@ -69,13 +69,13 @@
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_05.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_06.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
         </div>
@@ -85,7 +85,7 @@
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_07.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
@@ -101,13 +101,13 @@
             <div class="layout-split__item layout-split__item--small scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_08.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_09.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
         </div>
@@ -117,7 +117,7 @@
             <div class="layout-split__item scroll-snap__mobile">
                 <Teaser>
                     <Image src="/img/img_loft16_10.png"
-                           lazy="false" threshold="100" offset="100" />
+                           lazy="false" threshold="0" offset="100" />
                 </Teaser>
             </div>
             <div class="layout-split__item scroll-snap__mobile">
@@ -130,7 +130,7 @@
     <section class="fullscreen-scroll__section scroll-snap__desktop scroll-snap__mobile">
         <Teaser>
             <Image src="/img/img_kaai16_02.png"
-                   lazy="false" threshold="100" offset="100" />
+                   lazy="false" threshold="0" offset="100" />
         </Teaser>
     </section>
 </div>
